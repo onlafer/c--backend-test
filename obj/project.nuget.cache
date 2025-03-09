@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xdeh5wpGrVE=",
+  "success": true,
+  "projectFilePath": "C:\\VScodeProjects\\Apps\\backEnd\\lab2\\lab2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zubck\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "C:\\Users\\zubck\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
