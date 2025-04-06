@@ -31,3 +31,4 @@ C:\VScodeProjects\Apps\backEnd\lab11\obj\Debug\net9.0\refint\lab11.dll
 C:\VScodeProjects\Apps\backEnd\lab11\obj\Debug\net9.0\lab11.pdb
 C:\VScodeProjects\Apps\backEnd\lab11\obj\Debug\net9.0\lab11.genruntimeconfig.cache
 C:\VScodeProjects\Apps\backEnd\lab11\obj\Debug\net9.0\ref\lab11.dll
+C:\VScodeProjects\Apps\backEnd\lab11\obj\Debug\net9.0\lab11.sourcelink.json
