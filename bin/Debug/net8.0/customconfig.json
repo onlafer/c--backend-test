@@ -1,0 +1,7 @@
+{
+    "ExternalServices": {
+        "ApiUrl": "https://api.example.com",
+        "ApiKey": "custom-key-123",
+        "Timeout": 30
+    }
+}
