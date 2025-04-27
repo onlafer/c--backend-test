@@ -1,0 +1,567 @@
+2025-04-27T17:14:54.8288008+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:14:54.8589638+03:00  [INF] No migrations were found in assembly '"lab7"'. A migration needs to be added before the database can be updated. (83a5efa3)
+2025-04-27T17:14:55.0671986+03:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:14:55.0772269+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:14:55.0784274+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:14:55.0791641+03:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:14:55.0830420+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-04-27T17:14:55.1247666+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:14:55.1273896+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:14:55.1275316+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:14:55.1275741+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:15:03.0389517+03:00 0HNC5INJHA5N4:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:15:03.0622418+03:00 0HNC5INJHA5N4:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:15:03.0765773+03:00 0HNC5INJHA5N4:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:15:03.0783662+03:00 0HNC5INJHA5N4:00000001 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:15:03.0784580+03:00 0HNC5INJHA5N4:00000001 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:15:03.0784979+03:00 0HNC5INJHA5N4:00000001 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:15:03.0785504+03:00 0HNC5INJHA5N4:00000001 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:15:03.0940276+03:00 0HNC5INJHA5N4:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:15:03.1091505+03:00 0HNC5INJHA5N4:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 21.2313ms (afa2e885)
+2025-04-27T17:15:03.1093410+03:00 0HNC5INJHA5N4:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:15:03.1125831+03:00 0HNC5INJHA5N4:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 74.7462ms (74253ad3)
+2025-04-27T17:17:35.5101614+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:17:43.9892382+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:17:51.4023783+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:17:51.4307898+03:00  [INF] No migrations were found in assembly '"lab7"'. A migration needs to be added before the database can be updated. (83a5efa3)
+2025-04-27T17:17:51.6424714+03:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:17:51.6523564+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:17:51.6536567+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:17:51.6545773+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:17:51.6589200+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-04-27T17:29:34.2713707+03:00  [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:29:48.8651958+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:30:05.2097935+03:00  [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:30:05.2380205+03:00  [INF] No migrations were found in assembly '"lab7"'. A migration needs to be added before the database can be updated. (83a5efa3)
+2025-04-27T17:30:05.4523548+03:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:30:05.4620074+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:30:05.4630158+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:30:05.4637891+03:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:30:05.4676597+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-04-27T17:30:30.8939856+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:30:30.9249813+03:00  [INF] No migrations were found in assembly '"lab7"'. A migration needs to be added before the database can be updated. (83a5efa3)
+2025-04-27T17:30:31.1353249+03:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:30:31.1455732+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:30:31.1467064+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:30:31.1475240+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:30:31.1514601+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-04-27T17:30:31.2024684+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:30:31.2051031+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:30:31.2052808+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:30:31.2053130+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:32:50.3580073+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:32:57.0181084+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:32:57.0505085+03:00  [INF] No migrations were found in assembly '"lab7"'. A migration needs to be added before the database can be updated. (83a5efa3)
+2025-04-27T17:32:57.2675659+03:00  [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:32:57.2776768+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:32:57.2791035+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:32:57.2798776+03:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:32:57.2837417+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-04-27T17:32:57.3279124+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:32:57.3304345+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:32:57.3305740+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:32:57.3306002+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:35:00.7476577+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:36:17.4967408+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:36:17.7680826+03:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:36:17.7782561+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:36:17.7793409+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:36:17.7800124+03:00  [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:36:17.7884058+03:00  [INF] Applying migration '"20250427143601_InitialCreate"'. (0e2ac64d)
+2025-04-27T17:36:17.8241244+03:00  [INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE logs (
+    \"Id\" integer GENERATED BY DEFAULT AS IDENTITY,
+    \"Timestamp\" timestamp with time zone NOT NULL,
+    \"Level\" text,
+    \"Message\" text,
+    \"Exception\" text,
+    \"Logger\" text,
+    \"Properties\" text,
+    CONSTRAINT \"PK_logs\" PRIMARY KEY (\"Id\")
+);" (0723d8ff)
+2025-04-27T17:36:17.8270394+03:00  [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20250427143601_InitialCreate', '9.0.4');" (0723d8ff)
+2025-04-27T17:36:32.1759566+03:00  [INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:36:32.4861817+03:00  [INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);" (0723d8ff)
+2025-04-27T17:36:32.4964452+03:00  [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long. (a4825afd)
+2025-04-27T17:36:32.4974999+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE" (0723d8ff)
+2025-04-27T17:36:32.4982642+03:00  [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";" (0723d8ff)
+2025-04-27T17:36:32.5021784+03:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2025-04-27T17:36:32.5561347+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:36:32.5588268+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:36:32.5589755+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:36:32.5590065+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:37:40.9153236+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:37:45.3375975+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:37:45.3461844+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:37:45.3465821+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:37:45.3466218+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:39:17.4654255+03:00 0HNC5J54VL6D2:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - null null (d509f86a)
+2025-04-27T17:39:17.5028024+03:00 0HNC5J54VL6D2:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (500cc934)
+2025-04-27T17:39:17.5380194+03:00 0HNC5J54VL6D2:00000001 [INF] Route matched with "{action = \"GenerateException\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GenerateException()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:39:17.5696306+03:00 0HNC5J54VL6D2:00000001 [ERR] Произошла ошибка при обработке запроса (d52e6362)
+System.InvalidOperationException: Тестовая ошибка
+   at LoggingDemo.Controllers.TestController.GenerateException() in C:\VScodeProjects\Apps\backEnd\lab7\Controllers\TestController.cs:line 34
+2025-04-27T17:39:17.5924406+03:00 0HNC5J54VL6D2:00000001 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:39:17.6228721+03:00 0HNC5J54VL6D2:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.GenerateException (lab7)" in 62.4487ms (afa2e885)
+2025-04-27T17:39:17.6231326+03:00 0HNC5J54VL6D2:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (99874f2b)
+2025-04-27T17:39:17.6270430+03:00 0HNC5J54VL6D2:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - 500 null "text/plain; charset=utf-8" 164.287ms (74253ad3)
+2025-04-27T17:40:27.3640325+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:41:15.7523304+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:41:15.7619140+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:41:15.7626557+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:41:15.7630287+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:41:16.9847361+03:00  [INF] Executed DbCommand ("76"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:41:16.9847445+03:00  [INF] Executed DbCommand ("76"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:41:16.9847570+03:00  [INF] Executed DbCommand ("76"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:41:16.9847398+03:00  [INF] Executed DbCommand ("76"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:42:43.0058269+03:00 0HNC5J7280MIE:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:42:43.0299123+03:00 0HNC5J7280MIE:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:42:43.0412977+03:00 0HNC5J7280MIE:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:42:43.0431424+03:00 0HNC5J7280MIE:00000001 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:42:43.0436237+03:00 0HNC5J7280MIE:00000001 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:42:43.0439206+03:00 0HNC5J7280MIE:00000001 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:42:43.0441686+03:00 0HNC5J7280MIE:00000001 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:42:43.0615790+03:00 0HNC5J7280MIE:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:42:43.0771909+03:00 0HNC5J7280MIE:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 24.2015ms (afa2e885)
+2025-04-27T17:42:43.0773740+03:00 0HNC5J7280MIE:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:42:43.0802493+03:00 0HNC5J7280MIE:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 75.7029ms (74253ad3)
+2025-04-27T17:42:43.1371192+03:00 0HNC5J7280MIE:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:42:43.1370932+03:00 0HNC5J7280MIE:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:42:43.1371059+03:00 0HNC5J7280MIE:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:42:43.1371510+03:00 0HNC5J7280MIE:00000001 [INF] Executed DbCommand ("7"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:42:43.1964726+03:00 0HNC5J7280MIE:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:42:45.1839471+03:00 0HNC5J7280MIE:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - null null (d509f86a)
+2025-04-27T17:42:45.1848811+03:00 0HNC5J7280MIE:00000002 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (500cc934)
+2025-04-27T17:42:45.1966292+03:00 0HNC5J7280MIE:00000002 [INF] Route matched with "{action = \"GenerateException\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GenerateException()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:42:45.2216901+03:00 0HNC5J7280MIE:00000002 [ERR] Произошла ошибка при обработке запроса (d52e6362)
+System.InvalidOperationException: Тестовая ошибка
+   at LoggingDemo.Controllers.TestController.GenerateException() in C:\VScodeProjects\Apps\backEnd\lab7\Controllers\TestController.cs:line 34
+2025-04-27T17:42:45.2223372+03:00 0HNC5J7280MIE:00000002 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:42:45.2227483+03:00 0HNC5J7280MIE:00000002 [INF] Executed action "LoggingDemo.Controllers.TestController.GenerateException (lab7)" in 25.9428ms (afa2e885)
+2025-04-27T17:42:45.2228361+03:00 0HNC5J7280MIE:00000002 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (99874f2b)
+2025-04-27T17:42:45.2231664+03:00 0HNC5J7280MIE:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - 500 null "text/plain; charset=utf-8" 39.2393ms (74253ad3)
+2025-04-27T17:42:45.2407749+03:00 0HNC5J7280MIE:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:52:57.0126831+03:00 0HNC5J7280MIF:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:52:57.0140134+03:00 0HNC5J7280MIF:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:52:57.0143070+03:00 0HNC5J7280MIF:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:52:57.0144781+03:00 0HNC5J7280MIF:00000001 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:52:57.0148801+03:00 0HNC5J7280MIF:00000001 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:52:57.0152555+03:00 0HNC5J7280MIF:00000001 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:52:57.0155449+03:00 0HNC5J7280MIF:00000001 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:52:57.0158452+03:00 0HNC5J7280MIF:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:52:57.0161261+03:00 0HNC5J7280MIF:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 1.6754ms (afa2e885)
+2025-04-27T17:52:57.0162108+03:00 0HNC5J7280MIF:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:52:57.0164255+03:00 0HNC5J7280MIF:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 3.808ms (74253ad3)
+2025-04-27T17:52:57.1160141+03:00 0HNC5J7280MIF:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:52:57.1216560+03:00 0HNC5J7280MIF:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:52:57.1228150+03:00 0HNC5J7280MIF:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:52:57.1282876+03:00 0HNC5J7280MIF:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:52:57.1288725+03:00 0HNC5J7280MIF:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:56:50.5717819+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:56:50.5792533+03:00  [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:56:59.5362970+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:56:59.5459665+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:56:59.5468664+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:56:59.5472959+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:56:59.6415185+03:00 0HNC5JF1HG8CE:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:56:59.6834609+03:00 0HNC5JF1HG8CE:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:56:59.7092757+03:00 0HNC5JF1HG8CE:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:56:59.7109768+03:00 0HNC5JF1HG8CE:00000001 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:56:59.7110535+03:00 0HNC5JF1HG8CE:00000001 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:56:59.7114859+03:00 0HNC5JF1HG8CE:00000001 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:56:59.7117888+03:00 0HNC5JF1HG8CE:00000001 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:56:59.7295808+03:00 0HNC5JF1HG8CE:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:56:59.7524825+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 24.299ms (afa2e885)
+2025-04-27T17:56:59.7526626+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:56:59.7559221+03:00 0HNC5JF1HG8CE:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 115.497ms (74253ad3)
+2025-04-27T17:57:00.8581270+03:00  [INF] Executed DbCommand ("103"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581359+03:00  [INF] Executed DbCommand ("103"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581370+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed DbCommand ("103"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581344+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed DbCommand ("103"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581805+03:00  [INF] Executed DbCommand ("103"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581871+03:00  [INF] Executed DbCommand ("104"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581758+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed DbCommand ("103"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581877+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed DbCommand ("104"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:00.8581884+03:00 0HNC5JF1HG8CE:00000001 [INF] Executed DbCommand ("104"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:01.3892250+03:00 0HNC5JF1HG8CE:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:57:01.3903999+03:00 0HNC5JF1HG8CE:00000002 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:57:01.3907360+03:00 0HNC5JF1HG8CE:00000002 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:57:01.3909512+03:00 0HNC5JF1HG8CE:00000002 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:57:01.3910416+03:00 0HNC5JF1HG8CE:00000002 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:57:01.3911161+03:00 0HNC5JF1HG8CE:00000002 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:57:01.3911666+03:00 0HNC5JF1HG8CE:00000002 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:57:01.3918309+03:00 0HNC5JF1HG8CE:00000002 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:57:01.3925217+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 1.6301ms (afa2e885)
+2025-04-27T17:57:01.3925961+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:57:01.3928706+03:00 0HNC5JF1HG8CE:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 3.6851ms (74253ad3)
+2025-04-27T17:57:01.4799910+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:01.4800123+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:01.4808766+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:01.4809407+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:01.4809621+03:00 0HNC5JF1HG8CE:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:02.9225304+03:00 0HNC5JF1HG8CE:00000003 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:57:02.9237946+03:00 0HNC5JF1HG8CE:00000003 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:57:02.9240327+03:00 0HNC5JF1HG8CE:00000003 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:57:02.9241752+03:00 0HNC5JF1HG8CE:00000003 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:57:02.9242484+03:00 0HNC5JF1HG8CE:00000003 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:57:02.9243080+03:00 0HNC5JF1HG8CE:00000003 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:57:02.9244059+03:00 0HNC5JF1HG8CE:00000003 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:57:02.9247623+03:00 0HNC5JF1HG8CE:00000003 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:57:02.9250204+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 0.8803ms (afa2e885)
+2025-04-27T17:57:02.9250934+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:57:02.9252693+03:00 0HNC5JF1HG8CE:00000003 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 2.784ms (74253ad3)
+2025-04-27T17:57:02.9447774+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:02.9456698+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:02.9456788+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:02.9456884+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:02.9456788+03:00 0HNC5JF1HG8CE:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:18.9716371+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:57:18.9838275+03:00  [INF] Executed DbCommand ("10"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:23.1295975+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:57:23.1384502+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:57:23.1392657+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:57:23.1396608+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:57:24.3640296+03:00  [INF] Executed DbCommand ("84"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:24.3640324+03:00  [INF] Executed DbCommand ("84"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:24.3640264+03:00  [INF] Executed DbCommand ("84"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:24.3640287+03:00  [INF] Executed DbCommand ("84"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:26.7600216+03:00 0HNC5JF9K58QT:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:57:26.7823284+03:00 0HNC5JF9K58QT:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:57:26.7931522+03:00 0HNC5JF9K58QT:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:57:26.7949734+03:00 0HNC5JF9K58QT:00000001 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:57:26.7950596+03:00 0HNC5JF9K58QT:00000001 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:57:26.7951156+03:00 0HNC5JF9K58QT:00000001 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:57:26.7951606+03:00 0HNC5JF9K58QT:00000001 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:57:26.8115525+03:00 0HNC5JF9K58QT:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:57:26.8272437+03:00 0HNC5JF9K58QT:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 21.8894ms (afa2e885)
+2025-04-27T17:57:26.8274260+03:00 0HNC5JF9K58QT:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:57:26.8310432+03:00 0HNC5JF9K58QT:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 71.5945ms (74253ad3)
+2025-04-27T17:57:26.8884469+03:00 0HNC5JF9K58QT:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:26.8890609+03:00 0HNC5JF9K58QT:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:26.8890677+03:00 0HNC5JF9K58QT:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:26.8891454+03:00 0HNC5JF9K58QT:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:57:26.9550266+03:00 0HNC5JF9K58QT:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:58:26.6508777+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T17:58:26.6643972+03:00  [INF] Executed DbCommand ("10"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:58:32.1699925+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T17:58:32.1798033+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T17:58:32.1806717+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T17:58:32.1810405+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T17:58:33.3952396+03:00  [INF] Executed DbCommand ("72"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:58:33.3952323+03:00  [INF] Executed DbCommand ("72"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:58:33.3952348+03:00  [INF] Executed DbCommand ("72"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:58:33.3952502+03:00  [INF] Executed DbCommand ("72"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T17:58:33.9927778+03:00 0HNC5JFTLB02C:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - null null (d509f86a)
+2025-04-27T17:58:34.0160302+03:00 0HNC5JFTLB02C:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (500cc934)
+2025-04-27T17:58:34.0274450+03:00 0HNC5JFTLB02C:00000001 [INF] Route matched with "{action = \"Get\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T17:58:34.0294895+03:00 0HNC5JFTLB02C:00000001 [INF] Это сообщение уровня Information (76abb58e)
+2025-04-27T17:58:34.0295818+03:00 0HNC5JFTLB02C:00000001 [WRN] Это сообщение уровня Warning (2cd1f21d)
+2025-04-27T17:58:34.0296270+03:00 0HNC5JFTLB02C:00000001 [ERR] Это сообщение уровня Error (62ff806d)
+2025-04-27T17:58:34.0296637+03:00 0HNC5JFTLB02C:00000001 [FTL] Это сообщение уровня Critical (869d46e7)
+2025-04-27T17:58:34.0474519+03:00 0HNC5JFTLB02C:00000001 [INF] Executing "OkObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T17:58:34.0641489+03:00 0HNC5JFTLB02C:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.Get (lab7)" in 23.5148ms (afa2e885)
+2025-04-27T17:58:34.0643839+03:00 0HNC5JFTLB02C:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.Get (lab7)"' (99874f2b)
+2025-04-27T17:58:34.0680111+03:00 0HNC5JFTLB02C:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test""" - 200 null "text/plain; charset=utf-8" 76.447ms (74253ad3)
+2025-04-27T17:58:34.1350839+03:00 0HNC5JFTLB02C:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:12.0051506+03:00 0HNC5JFTLB02C:00000002 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - null null (d509f86a)
+2025-04-27T18:00:12.0064940+03:00 0HNC5JFTLB02C:00000002 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (500cc934)
+2025-04-27T18:00:12.0090722+03:00 0HNC5JFTLB02C:00000002 [INF] Route matched with "{action = \"GenerateException\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GenerateException()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T18:00:12.0361592+03:00 0HNC5JFTLB02C:00000002 [ERR] Произошла ошибка при обработке запроса (d52e6362)
+System.InvalidOperationException: Тестовая ошибка
+   at LoggingDemo.Controllers.TestController.GenerateException() in C:\VScodeProjects\Apps\backEnd\lab7\Controllers\TestController.cs:line 34
+2025-04-27T18:00:12.0368784+03:00 0HNC5JFTLB02C:00000002 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T18:00:12.0377261+03:00 0HNC5JFTLB02C:00000002 [INF] Executed action "LoggingDemo.Controllers.TestController.GenerateException (lab7)" in 28.444ms (afa2e885)
+2025-04-27T18:00:12.0378499+03:00 0HNC5JFTLB02C:00000002 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (99874f2b)
+2025-04-27T18:00:12.0382190+03:00 0HNC5JFTLB02C:00000002 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - 500 null "text/plain; charset=utf-8" 33.2181ms (74253ad3)
+2025-04-27T18:00:12.0519199+03:00 0HNC5JFTLB02C:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:15.3790215+03:00  [INF] Application is shutting down... (90f52c38)
+2025-04-27T18:00:15.3832932+03:00  [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:19.3700783+03:00  [INF] Now listening on: "http://localhost:5071" (d826f4b8)
+2025-04-27T18:00:19.3798937+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2025-04-27T18:00:19.3810246+03:00  [INF] Hosting environment: "Development" (bc5a1a4e)
+2025-04-27T18:00:19.3816427+03:00  [INF] Content root path: "C:\VScodeProjects\Apps\backEnd\lab7" (cc26f24e)
+2025-04-27T18:00:20.6442287+03:00  [INF] Executed DbCommand ("77"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:20.6442256+03:00  [INF] Executed DbCommand ("77"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:20.6442293+03:00  [INF] Executed DbCommand ("77"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:20.6442497+03:00  [INF] Executed DbCommand ("77"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:00:21.1002968+03:00 0HNC5JGTIQ1T6:00000001 [INF] Request starting "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - null null (d509f86a)
+2025-04-27T18:00:21.1220885+03:00 0HNC5JGTIQ1T6:00000001 [INF] Executing endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (500cc934)
+2025-04-27T18:00:21.1327856+03:00 0HNC5JGTIQ1T6:00000001 [INF] Route matched with "{action = \"GenerateException\", controller = \"Test\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GenerateException()" on controller "LoggingDemo.Controllers.TestController" ("lab7"). (122b2fdf)
+2025-04-27T18:00:21.1457782+03:00 0HNC5JGTIQ1T6:00000001 [ERR] Произошла ошибка при обработке запроса (d52e6362)
+System.InvalidOperationException: Тестовая ошибка
+   at LoggingDemo.Controllers.TestController.GenerateException() in C:\VScodeProjects\Apps\backEnd\lab7\Controllers\TestController.cs:line 34
+2025-04-27T18:00:21.1611461+03:00 0HNC5JGTIQ1T6:00000001 [INF] Executing "ObjectResult", writing value of type '"System.String"'. (605b4265)
+2025-04-27T18:00:21.1759709+03:00 0HNC5JGTIQ1T6:00000001 [INF] Executed action "LoggingDemo.Controllers.TestController.GenerateException (lab7)" in 31.7389ms (afa2e885)
+2025-04-27T18:00:21.1761631+03:00 0HNC5JGTIQ1T6:00000001 [INF] Executed endpoint '"LoggingDemo.Controllers.TestController.GenerateException (lab7)"' (99874f2b)
+2025-04-27T18:00:21.1795850+03:00 0HNC5JGTIQ1T6:00000001 [INF] Request finished "HTTP/1.1" "GET" "http"://"localhost:5071""""/test/exception""" - 500 null "text/plain; charset=utf-8" 80.0888ms (74253ad3)
+2025-04-27T18:00:21.2316199+03:00 0HNC5JGTIQ1T6:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO logs (\"Exception\", \"Level\", \"Logger\", \"Message\", \"Properties\", \"Timestamp\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING \"Id\";" (0723d8ff)
+2025-04-27T18:03:41.3429038+03:00  [INF] Application is shutting down... (90f52c38)
