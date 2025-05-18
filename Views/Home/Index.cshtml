@@ -1,0 +1,226 @@
+@{
+    ViewData["Title"] = "State Management Demo";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        form {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+        input[type="text"] {
+            padding: 8px;
+            width: 100%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 8px 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        hr {
+            margin: 20px 0;
+            border: 0;
+            border-top: 1px solid #eee;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            margin-bottom: 5px;
+            background: #f4f4f4;
+            border-left: 4px solid #4CAF50;
+        }
+        .btn-group {
+            margin-bottom: 20px;
+        }
+        .btn-secondary {
+            background: #555;
+        }
+        .btn-secondary:hover {
+            background: #444;
+        }
+        .btn-info {
+            background: #2196F3;
+        }
+        .btn-info:hover {
+            background: #0b7dda;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+
+        <form method="post" action="/Home/SaveData">
+            <div>
+                <label for="dataInput">Введите данные для сохранения:</label>
+                <input type="text" id="dataInput" name="data" required>
+            </div>
+            <button type="submit">Сохранить на сервере</button>
+        </form>
+
+        <form method="post" action="/Home/SaveTempData">
+            <div>
+                <label for="tempDataInput">Введите данные для TempData:</label>
+                <input type="text" id="tempDataInput" name="data" required>
+            </div>
+            <button type="submit">Сохранить в TempData</button>
+        </form>
+
+        <hr>
+
+        <h3>Данные из серверных хранилищ:</h3>
+        <ul>
+            <li><strong>Сессия:</strong> @ViewBag.SessionData</li>
+            <li><strong>Cookies:</strong> @ViewBag.CookieData</li>
+            <li><strong>TempData:</strong> @TempData["TempDataValue"]</li>
+        </ul>
+
+        <hr>
+
+        <h3>Клиентские хранилища:</h3>
+        <div class="btn-group">
+            <button onclick="saveToLocalStorage()">Сохранить в localStorage</button>
+            <button onclick="saveToSessionStorage()">Сохранить в sessionStorage</button>
+            <button onclick="saveToCookie()">Сохранить в cookie</button>
+            <button onclick="getServerData()" class="btn-info">Получить данные с сервера</button>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <h4>Содержимое клиентских хранилищ:</h4>
+            <ul id="clientStorageList"></ul>
+        </div>
+    </div>
+
+    <script>
+        function saveToLocalStorage() {
+            const data = prompt("Введите данные для localStorage:");
+            if (data) {
+                localStorage.setItem("localData", data);
+                updateClientStorageDisplay();
+                alert("Данные сохранены в localStorage!");
+            }
+        }
+
+        function saveToSessionStorage() {
+            const data = prompt("Введите данные для sessionStorage:");
+            if (data) {
+                sessionStorage.setItem("sessionData", data);
+                updateClientStorageDisplay();
+                alert("Данные сохранены в sessionStorage!");
+            }
+        }
+
+        function saveToCookie() {
+            const data = prompt("Введите данные для cookie:");
+            if (data) {
+                document.cookie = `clientCookieData=${encodeURIComponent(data)}; path=/; max-age=86400`; // 1 день
+                updateClientStorageDisplay();
+                alert("Данные сохранены в cookie!");
+            }
+        }
+
+        function getServerData() {
+            fetch('/Home/GetJsonData')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Ошибка сети');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    localStorage.setItem("serverData", JSON.stringify(data));
+                    updateClientStorageDisplay();
+                    alert("Данные получены с сервера и сохранены!");
+                })
+                .catch(error => {
+                    alert("Ошибка при получении данных: " + error.message);
+                });
+        }
+
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return decodeURIComponent(parts.pop().split(';').shift());
+        }
+
+        function updateClientStorageDisplay() {
+            const list = document.getElementById("clientStorageList");
+            list.innerHTML = '';
+
+            const localData = localStorage.getItem("localData");
+            if (localData) {
+                const li = document.createElement("li");
+                li.innerHTML = `<strong>localStorage:</strong> ${localData}`;
+                list.appendChild(li);
+            }
+
+            const sessionData = sessionStorage.getItem("sessionData");
+            if (sessionData) {
+                const li = document.createElement("li");
+                li.innerHTML = `<strong>sessionStorage:</strong> ${sessionData}`;
+                list.appendChild(li);
+            }
+
+            const cookieData = getCookie("clientCookieData");
+            if (cookieData) {
+                const li = document.createElement("li");
+                li.innerHTML = `<strong>cookie:</strong> ${cookieData}`;
+                list.appendChild(li);
+            }
+
+            const serverData = localStorage.getItem("serverData");
+            if (serverData) {
+                try {
+                    const data = JSON.parse(serverData);
+                    const li = document.createElement("li");
+                    li.innerHTML = `<strong>Серверные данные:</strong> ${data.message || "Нет сообщения"} (${data.serverTime || "Нет времени"})`;
+                    list.appendChild(li);
+                } catch (e) {
+                    console.error("Ошибка парсинга JSON:", e);
+                }
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            updateClientStorageDisplay();
+
+            document.querySelectorAll('button').forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (this.getAttribute('type') !== 'submit') {
+                        e.preventDefault();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
